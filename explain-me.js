@@ -27,7 +27,7 @@ class StateManager {
   }
 }
 
-// A debounce utility to prevent rapid calls
+// No one left a comment, so let's find out what this code does
 function debounce(fn, delay) {
   let timeoutId;
   return (...args) => {
