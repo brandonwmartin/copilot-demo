@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Refactor Me</title>
+  <style>
+    .nav-item {
+      font-weight: bold;
+    }
+    .hero-title {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header" id="main-header">
+    <h1 class="site-title" id="site-title">My Website</h1>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item nav-home"><a href="#">Home</a></li>
+        <li class="nav-item nav-about"><a href="#">About</a></li>
+        <li class="nav-item nav-services"><a href="#">Services</a></li>
+        <li class="nav-item nav-contact"><a href="#">Contact</a></li>
+        <li><a href="#">Extra</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <h2 class="hero-title">Welcome to My Website</h2>
+    <p class="hero-description" style="font-size: 18px;">We provide top-notch solutions to your problems.</p> <!-- inline style -->
+    <button class="hero-cta" onclick="alert('Hello!')">Learn More</button> 
+  </section>
+
+  <section class="services-section">
+    <div class="services-list">
+      <div class="service">
+        <h3 class="service-title">Consulting</h3>
+        <p class="service-desc">Expert advice to guide your strategy.</p>
+        <img src="consulting.png"> 
+      </div>
+      <div class="service">
+        <h3 class="service-title">Development</h3>
+        <p class="service-desc">Custom software tailored to your needs.</p>
+        <img src="development.png" alt=""> 
+      </div>
+      <div class="service">
+        <h3 class="service-title">Support</h3>
+        <p class="service-desc">Reliable help whenever you need it.</p>
+        <img> 
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <p class="footer-text">© 2025 My Website. All rights reserved.</p>
+    <p class="footer-text">Email us!</p> 
+  </footer>
+</body>
+</html>
